@@ -29,7 +29,6 @@
     "react-tabs": "^6.0.0",
     "react-toastify": "^9.1.1",
     "react-tooltip": "^4.2.21",
-    "react-typed": "^1.2.0",
     "sass": "^1.57.1",
     "slick-carousel": "^1.8.1"
   }

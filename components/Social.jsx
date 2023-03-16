@@ -1,19 +1,14 @@
 import React from "react";
+import Image from "next/image";
 
 const SocialShare = [
   {
     iconName: "facebook",
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/profile.php?id=100073286704751",
   },
-  { iconName: "twitter", link: "https://twitter.com/" },
   {
     iconName: "instagram",
-    link: "https://www.instagram.com/",
-  },
-  { iconName: "dribbble", link: "https://dribbble.com/" },
-  {
-    iconName: "tik-tok",
-    link: "https://www.tiktok.com/",
+    link: "https://instagram.com/pashateach.me?igshid=YmMyMTA2M2Y=",
   },
 ];
 const Social = () => {
@@ -23,16 +18,17 @@ const Social = () => {
         {SocialShare.map((val, i) => (
           <li key={i}>
             <a href={`${val.link}`} target="_blank" rel="noreferrer">
-              <img
-                className="svg"
-                src={`/img/svg/social/${val.iconName}.svg`}
+              <Image
                 alt="social"
-              ></img>
+                className="svg"
+                height={32}
+                src={`/img/svg/social/${val.iconName}.svg`}
+                width={32}
+              />
             </a>
           </li>
         ))}
       </ul>
-      {/* END SOCIAL */}
     </>
   );
 };

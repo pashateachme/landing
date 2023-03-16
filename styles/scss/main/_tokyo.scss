@@ -430,6 +430,7 @@ h6 {
   min-height: 300px;
   position: relative;
   border-radius: 100%;
+  margin-left: 30px;
 }
 .tokyo_tm_home .avatar .image {
   position: absolute;
@@ -471,11 +472,18 @@ h6 {
 .tokyo_tm_home .details .typer {
   margin-bottom: 15px;
 }
+.tokyo_tm_home .details .job-container {
+  padding: 0 30px 0 0;
+  @media (max-width: 1040px) {
+    padding: 0 30px;
+  }
+}
 .tokyo_tm_home .details .job {
   font-family: "Montserrat";
   font-weight: 500;
-  max-width: 450px;
+  // max-width: 400px;
   margin-bottom: 20px;
+  text-align: left;
 }
 .tokyo_tm_home .social {
   width: 100%;
@@ -854,7 +862,10 @@ h6 {
 }
 
 .tokyo_tm_portfolio .portfolio_filter .react-tabs__tab-list li:hover,
-.tokyo_tm_portfolio .portfolio_filter .react-tabs__tab-list li.react-tabs__tab--selected {
+.tokyo_tm_portfolio
+  .portfolio_filter
+  .react-tabs__tab-list
+  li.react-tabs__tab--selected {
   color: #000;
   letter-spacing: 2px;
 }
@@ -1530,8 +1541,10 @@ body.modal {
   height: 6px;
   z-index: 50;
   background-color: #000;
-  -webkit-transition: width 0.3s ease-in-out, height 0.3s ease-in-out, margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
-  transition: width 0.3s ease-in-out, height 0.3s ease-in-out, margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  -webkit-transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
+    margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
+    margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 .cursor-inner.cursor-hover {
   margin-left: -40px;

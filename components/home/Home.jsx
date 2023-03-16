@@ -1,5 +1,4 @@
 import React from "react";
-import Typed from "react-typed";
 import Social from "../Social";
 
 const Home = () => {
@@ -11,39 +10,27 @@ const Home = () => {
             <div
               className="image avatar_img"
               style={{
-                backgroundImage: "url(/img/slider/1.jpg)",
+                backgroundImage: "url(/img/avatar/avatar.jpeg)",
               }}
             ></div>
-            {/* END AVATAR IMAGE */}
           </div>
-          {/* END AVATAR */}
           <div className="details">
-            <h3 className="name">Adriano Smith</h3>
-            <h4 className="typer">
-              <Typed
-                strings={[
-                  "Programmer",
-                  "Investigative reporter",
-                  "Photographer",
-                  "Writer",
-                ]}
-                loop
-                typeSpeed={80}
-              />
-            </h4>
-
-            <p className="job">
-              Creative Photographer based in New York and happy to travel all
-              over Europe to capture photos.
-            </p>
-            {/* END JOB */}
+            <h3 className="name">Pavlo Nykyforiuk</h3>
+            <h4 className="typer"></h4>
+            <div className="job-container">
+              <p className="job">
+                I&apos;m a dedicated English teacher based in Chernivtsi,
+                Ukraine, with a passion for helping my students learn and grow
+                in their language abilities. I have experience teaching students
+                of all ages and backgrounds, and I&apos;m committed to creating
+                engaging and effective lessons that meet the unique needs of
+                each student.
+              </p>
+            </div>
             <Social />
           </div>
-          {/* END DETAILS */}
         </div>
-        {/* END HOME CONTENT */}
       </div>
-      {/* END HOME */}
     </>
   );
 };
