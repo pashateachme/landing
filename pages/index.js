@@ -1,13 +1,23 @@
-import React from "react";
-import Wrapper from "../layout/wrapper";
-import Preview from "./preview";
+import Home from "../components/home/Home";
+import Seo from "../components/Seo";
+import Sidebar from "../components/sidebar/Sidebar";
 
-const MainRoot = () => {
+const index = () => {
   return (
-    <Wrapper>
-      <Preview />
-    </Wrapper>
+    <>
+      <Seo pageTitle="Home" />
+      <Sidebar />
+      <div className="rightpart">
+        <div className="rightpart_in">
+          <div className="tokyo_tm_section">
+            <div data-aos="fade-right" data-aos-duration="1200">
+              <Home />
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 
-export default MainRoot;
+export default index;

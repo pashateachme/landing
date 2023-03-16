@@ -4,14 +4,11 @@ const CopyRight = () => {
   return (
     <div className="copyright">
       <p>
-        &copy; {new Date().getFullYear()} Tokyo <br /> Created by
-        <a
-          href="https://themeforest.net/user/ib-themes"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Ib-Themes
+        Created by
+        <a href="https://dasburo.tech" target="_blank" rel="noreferrer">
+          dasBüro
         </a>
+        <br /> {new Date().getFullYear()}
       </p>
     </div>
   );
