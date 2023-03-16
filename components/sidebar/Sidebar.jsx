@@ -58,13 +58,15 @@ const Sidebar = () => {
                     }`}
                     href={item.routePath}
                   >
-                    <Image
-                      width={15}
-                      height={15}
-                      className="svg"
-                      src={item.icon}
-                      alt="homerun"
-                    />
+                    {item.icon ? (
+                      <Image
+                        width={15}
+                        height={15}
+                        className="svg"
+                        src={item.icon}
+                        alt="homerun"
+                      />
+                    ) : null}
                     <span className="menu_content">{item.menuName}</span>
                   </Link>
                 </li>
