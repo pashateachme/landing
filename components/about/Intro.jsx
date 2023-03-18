@@ -3,21 +3,29 @@ import React from "react";
 const Intro = () => {
   const introContent = {
     image: "/img/slider/1.jpg",
-    name: "Adriano Smith",
-    designation: "Web Developer",
+    name: "Pavlo Nykyforiuk",
+    designation: "English Teacher",
     text: (
       <>
         <p>
-          Hi, my name is Adriano Smith and I began using WordPress when it first
-          began. I’ve spent most of my waking hours for the last ten years
-          designing, programming and operating WordPress sites.
+          Hey there, my name is Pavlo Nykyforiuk, and I&apos;m not just your
+          average English teacher! I&apos;m an experienced educator who is
+          passionate about teaching and has a talent for creating engaging and
+          fun learning experiences. With my expertise, I have helped dozens of
+          students of all ages and levels overcome their language barriers and
+          finally achieve their goals of mastering the English language.
         </p>
         <p>
-          One of my specialties is taking an idea from scratch and creating a
-          full-fledged platform. I go beyond to produce sites with a unique,
-          outstanding, contemporary look-and-feel. With extensive knowledge of
-          web mechanics, I’m able to optimize complex integrations to require
-          little-to-no maintenance while running on their own for years.
+          My teaching style is designed to be interactive, dynamic, and tailored
+          to meet the needs of each individual student. I understand that
+          everyone learns differently, and that&apos;s why I work hard to make
+          sure my lessons are engaging and fun, while still being informative
+          and effective. Whether you&apos;re a beginner just starting out or an
+          advanced learner looking to improve your fluency, I&apos;m here to
+          help.
+        </p>
+        <p>
+          So why wait? Let&apos;s start your English language journey today!
         </p>
       </>
     ),
@@ -25,9 +33,9 @@ const Intro = () => {
 
   return (
     <>
-      <div className="top_author_image">
+      {/* <div className="top_author_image">
         <img src={introContent.image} alt="about" />
-      </div>
+      </div> */}
       <div className="about_title">
         <h3>{introContent.name}</h3>
         <span>{introContent.designation}</span>

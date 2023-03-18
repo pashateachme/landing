@@ -6,12 +6,7 @@ const index = () => {
   return (
     <>
       <Seo pageTitle="About" />
-      {/* End page title for seo */}
-
       <Sidebar />
-      {/* END LEFT MENU CONTENT */}
-
-      {/* START RIGHT PART CONTENT */}
       <div className="rightpart">
         <div className="rightpart_in">
           <div className="tokyo_tm_section">
@@ -21,7 +16,6 @@ const index = () => {
           </div>
         </div>
       </div>
-      {/* END RIGHT PART CONTENT */}
     </>
   );
 };
