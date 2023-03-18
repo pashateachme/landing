@@ -10,13 +10,21 @@ const SocialShare = [
     iconName: "instagram",
     link: "https://instagram.com/pashateach.me?igshid=YmMyMTA2M2Y=",
   },
+  {
+    iconName: "telegram",
+    link: "https://t.me/nyk_fury",
+  },
+  {
+    iconName: "email",
+    link: "mailto:nykyforiuk.study@gmail.com",
+  },
 ];
 const Social = () => {
   return (
     <>
       <ul className="social">
-        {SocialShare.map((val, i) => (
-          <li key={i}>
+        {SocialShare.map((val) => (
+          <li key={val.iconName}>
             <a href={`${val.link}`} target="_blank" rel="noreferrer">
               <Image
                 alt="social"
