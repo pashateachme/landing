@@ -29,10 +29,10 @@ module.exports = [
   //   menuName: "News",
   //   routePath: "/news",
   // },
-  // {
-  //   id: 6,
-  //   icon: "/img/svg/mail.svg",
-  //   menuName: "Contact",
-  //   routePath: "/contact",
-  // },
+  {
+    id: 6,
+    // icon: "/img/svg/mail.svg",
+    menuName: "Contact",
+    routePath: "/contact",
+  },
 ];
