@@ -16,7 +16,7 @@ export default function Document() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="robots" content="noindex, follow" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="./favicon.ico" />
       </Head>
       <body>
         <Main />

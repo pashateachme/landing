@@ -30,7 +30,7 @@ const Social = () => {
                 alt="social"
                 className="svg"
                 height={32}
-                src={`/img/svg/social/${val.iconName}.svg`}
+                src={`./img/svg/social/${val.iconName}.svg`}
                 width={32}
               />
             </a>
