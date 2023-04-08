@@ -11,14 +11,6 @@ const nextConfig = {
     ? {
         assetPrefix: "/landing/",
         basePath: "/landing",
-        redirects: async () => [
-          {
-            basePath: false,
-            destination: "landing/",
-            permanent: false,
-            source: "/",
-          },
-        ],
       }
     : {}),
 };
